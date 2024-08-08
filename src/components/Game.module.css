@@ -1,0 +1,45 @@
+.container{
+    text-align: center;
+}
+.title{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newGame{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #1f3540;
+    font-size: 24px;
+    color: #26ffcb;
+    padding: 16px 48px;
+}
+.board{
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 64px;
+    justify-content: center;
+
+}
+.boxes{
+    display: flex;
+    height: 120px;
+    width: 120px;
+    margin: 4px;
+    background-color: #1f3540;
+    border: 2px solid #1f1b21;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.boxes img{
+    margin: 24px;
+}
+.title img{
+    width: 56px;
+    height: 56px;
+    padding-top: 8px;
+}
